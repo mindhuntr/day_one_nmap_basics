@@ -1,0 +1,41 @@
+# Nmap 7.98 scan initiated Mon Oct 20 13:22:45 2025 as: nmap -sU -o udp_scan 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0032s latency).
+Not shown: 999 open|filtered udp ports (no-response)
+PORT   STATE SERVICE
+53/udp open  domain
+
+Nmap scan report for 192.168.1.2
+Host is up (0.048s latency).
+All 1000 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1000 closed udp ports (port-unreach)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.089s latency).
+Not shown: 998 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+623/udp  open|filtered asf-rmcp
+5353/udp open          zeroconf
+
+Nmap scan report for 192.168.1.4
+Host is up (0.072s latency).
+Not shown: 999 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+5353/udp open|filtered zeroconf
+
+Nmap scan report for 192.168.1.8
+Host is up (0.0091s latency).
+Not shown: 997 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+1900/udp open|filtered upnp
+5353/udp open          zeroconf
+7000/udp open|filtered afs3-fileserver
+
+Nmap scan report for 192.168.1.30
+Host is up (0.000015s latency).
+Not shown: 998 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+5353/udp open|filtered zeroconf
+5355/udp open|filtered llmnr
+
+# Nmap done at Mon Oct 20 13:48:59 2025 -- 256 IP addresses (6 hosts up) scanned in 1574.17 seconds
